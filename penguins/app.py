@@ -71,12 +71,12 @@ with ui.sidebar(open="open"):
     ui.h6("Links:")
     ui.a(
         "GitHub Source",
-        href="https://github.com/denisecase/pyshiny-penguins-dashboard-express",
+        href="https://github.com/Priyankanaskar/Cintel-04-Local/blob/main/penguins/app.py",
         target="_blank",
     )
     ui.a(
         "GitHub App",
-        href="https://denisecase.github.io/pyshiny-penguins-dashboard-express/",
+        href="https://github.com/Priyankanaskar/Cintel-04-Local",
         target="_blank",
     )
     ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
