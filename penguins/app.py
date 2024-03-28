@@ -68,7 +68,7 @@ with ui.sidebar(open="open"):
     
 # Add a hyperlink to the sidebar------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     
-    ui.a("GitHub", href="https://github.com/Priyankanaskar/cintel-03-reactive", target="_blank")
+    ui.a("GitHub", href="https://github.com/Priyankanaskar/Cintel-04-Local", target="_blank")
 
         
 # create a layout to include 2 cards with a data table and data grid------------------------------------------------------------------------------------------------------------------------------
