@@ -64,13 +64,22 @@ with ui.sidebar(open="open"):
     )
     
 # Add a horizontal rule to the sidebar----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ui.hr()
-    
+ui.hr() 
 # Add a hyperlink to the sidebar------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    
-    ui.a("GitHub", href="https://github.com/Priyankanaskar/Cintel-04-Local", target="_blank")
+ui.h6("Links:")   
+ui.a("GitHub", href="https://github.com/Priyankanaskar/Cintel-04-Local", target="_blank")
 
-        
+ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
+ui.a(
+        "PyShiny Express",
+        href="hhttps://shiny.posit.co/blog/posts/shiny-express/",
+        target="_blank",
+    )
+ui.a(
+        "See the Code",
+        href="https://shiny.posit.co/py/docs/user-interfaces.html#basic-dashboard",
+        target="_blank",
+    )    
 # create a layout to include 2 cards with a data table and data grid------------------------------------------------------------------------------------------------------------------------------
 with ui.accordion(id="acc", open="closed"):
     with ui.accordion_panel("Data Table"):
