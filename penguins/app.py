@@ -71,20 +71,12 @@ with ui.sidebar(open="open"):
     ui.h6("Links:")
     ui.a(
         "GitHub Source",
-<<<<<<< HEAD
-        href="https://github.com/denisecase/pyshiny-penguins-dashboard-express",
-=======
         href="https://github.com/Priyankanaskar/Cintel-04-Local/blob/main/penguins/app.py",
->>>>>>> d879a5f328dba40c4e5d7e0d939b32079b975f26
         target="_blank",
     )
     ui.a(
         "GitHub App",
-<<<<<<< HEAD
-        href="https://denisecase.github.io/pyshiny-penguins-dashboard-express/",
-=======
         href="https://github.com/Priyankanaskar/Cintel-04-Local",
->>>>>>> d879a5f328dba40c4e5d7e0d939b32079b975f26
         target="_blank",
     )
     ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
@@ -153,7 +145,7 @@ def displot():
 #Create Scatter plot
 with ui.card(full_screen=True):
 
-    ui.card_header("Plotly Scatterplot: Species")
+    ui.card_header("Plotly Scatterplot: Penguins Species")
 
     @render_plotly
     def plotly_scatterplot():
