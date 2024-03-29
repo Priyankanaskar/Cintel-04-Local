@@ -150,6 +150,7 @@ app_ui = ui.page_fillable(
         ui.card("Card 2"),
         ui.card("Card 3"),
         ui.card("Card 4"),
+        ui.card("Card 5"),
        width="2px",
         length="2px"
     ),
