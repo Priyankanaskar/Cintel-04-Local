@@ -1,8 +1,8 @@
 # Cintel-04-local
 # PyShiny Express: Palmer Penguins Dashboard
 
-- Repository: [pyshiny-penguins-dashboard-express](https://github.com/denisecase/pyshiny-penguins-dashboard-express)
-- Live App: [Penguins Dashboard (Express)](https://denisecase.github.io/pyshiny-penguins-dashboard-express/)
+- Repository: [pyshiny-penguins-dashboard-express]https://github.com/Priyankanaskar/Cintel-04-Local
+- Live App: [Penguins Dashboard (Express)](https://github.com/Priyankanaskar/Cintel-04-Local")
 
 Run and publish interactive apps using PyShiny Express and GitHub Pages.
 
