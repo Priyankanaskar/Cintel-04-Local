@@ -233,10 +233,16 @@ The Shiny development team. Shiny for Python [Computer software]. <https://githu
 
 Running the Shiny for Python app locally on port 8000.
 
-![Running the Shiny for Python app locally](./images/LocalAppRunning.JPG)
+[Running the Shiny for Python app locally] [alt text][def2]
 
 Serving the static app locally from the **docs** folder (as GitHub Pages will) on port 8008.
 The browser tab shows a custom tab title and favicon.
 Recommended: Build your own favicon at <https://favicon.io/>.
 
-![Serving the app locally from the docs folder](./images/ServingAppLocally.JPG)
+[Serving the app locally from the docs folder](./images/ServingAppLocally.JPG)
+
+
+[alt text](image-2.png)
+[alt text][def]
+
+[def]: image-3.png
