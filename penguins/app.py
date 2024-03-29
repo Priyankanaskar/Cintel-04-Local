@@ -130,7 +130,7 @@ with ui.card(full_screen=True):
         pie_chart = px.pie(filtered_data(), values="Body Mass (g)", names="Species", title="Body mass from Species")
         return pie_chart
 
-# Box Plot
+# Box Plot---------------------------------------------------------------------------------------------------------------------------------------------------
 with ui.card(full_screen=True):
 
     ui.card_header("Plotly Box Plot: Penguins Species")
