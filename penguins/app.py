@@ -7,7 +7,7 @@ import shinyswatch
 
 
 # Theme------------------------------------------------------------------------------------------------------------------------------------------------------------
-shinyswatch. theme.superhero()
+shinyswatch. theme.darkly()
 
 # This package provides the Palmer Penguins dataset----------------------------------------------------------------------------------------------
 
@@ -64,58 +64,13 @@ with ui.sidebar(open="open"):
     )
     
 # Add a horizontal rule to the sidebar----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ui.hr() 
-
+    ui.hr()
+    
 # Add a hyperlink to the sidebar------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    ui.a("GitHub", href="https://github.com/Priyankanaskar/cintel-03-reactive", target="_blank")
 
-    ui.h6("Links:")
-
-    ui.a(
-        "GitHub Source",
-        href="https://github.com/Priyankanaskar/Cintel-04-Local/blob/main/penguins/app.py",
-        target="_blank",
-    )
-    ui.a(
-        "GitHub App",
-        href="https://github.com/Priyankanaskar/Cintel-04-Local",
-        target="_blank",
-    )
-    ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
-
-    ui.a(
-        "PyShiny Express",
-        href="hhttps://shiny.posit.co/blog/posts/shiny-express/",
-        target="_blank",
         
-    )
-    
-    ui.a(
-        "See the Code",
-        href="https://shiny.posit.co/py/docs/user-interfaces.html#basic-dashboard",
-        target="_blank",
-    )
-    ui.a(
-        "Output: DataGrid",
-        href="https://shiny.posit.co/py/components/outputs/datatable/",
-        target="_blank",
-    )
-    ui.a(
-        "Output: DataTable",
-        href="https://shiny.posit.co/py/components/outputs/datatable/",
-        target="_blank",
-    )
-    ui.a(
-        "Output: Plotly Scatterplot",
-        href="https://shiny.posit.co/py/components/outputs/plot-plotly/",
-        target="_blank",
-    )
-    
-    ui.a(
-        "Output: Seaborn Histogram",
-        href="https://shiny.posit.co/py/components/outputs/plot-seaborn/",
-        target="_blank",
-    )
-   
 # create a layout to include 2 cards with a data table and data grid------------------------------------------------------------------------------------------------------------------------------
 with ui.accordion(id="acc", open="closed"):
     with ui.accordion_panel("Data Table"):
@@ -150,7 +105,7 @@ def displot():
 #Create Scatter plot
 with ui.card(full_screen=True):
 
-    ui.card_header("Plotly Scatterplot: Penguins Species")
+    ui.card_header("Plotly Scatterplot: Species")
 
     @render_plotly
     def plotly_scatterplot():
