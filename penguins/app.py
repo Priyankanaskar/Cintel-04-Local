@@ -174,7 +174,17 @@ with ui.card(full_screen=True):
     def plotly_pie_s():
         pie_chart = px.pie(filtered_data(), values="Body Mass (g)", names="Species", title="Body mass from Species")
         return pie_chart
-        
+
+# Box Plot
+with ui.card(full_screen=True):
+
+    ui.card_header("Plotly Box Plot: Penguins Species")
+
+    @render_plotly
+    def plotly_boxplot():
+        # Create a Plotly box plot using Plotly Express
+        return px.box(filtered_data(), x="Species", y="Body Mass (g)", color="Species", title="Penguin Box Plot")
+
 # Card view for visualization---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 from shiny import App, ui
