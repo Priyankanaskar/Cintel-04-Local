@@ -69,42 +69,51 @@ with ui.sidebar(open="open"):
 # Add a hyperlink to the sidebar------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
     ui.h6("Links:")
+
     ui.a(
         "GitHub Source",
         href="https://github.com/Priyankanaskar/Cintel-04-Local/blob/main/penguins/app.py",
         target="_blank",
     )
+
     ui.a(
         "GitHub App",
         href="https://github.com/Priyankanaskar/Cintel-04-Local",
         target="_blank",
     )
+
     ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
+
     ui.a(
         "PyShiny Express",
         href="hhttps://shiny.posit.co/blog/posts/shiny-express/",
         target="_blank",
+        
     )
     ui.a(
         "See the Code",
         href="https://shiny.posit.co/py/docs/user-interfaces.html#basic-dashboard",
         target="_blank",
     )
+
     ui.a(
         "Output: DataGrid",
         href="https://shiny.posit.co/py/components/outputs/datatable/",
         target="_blank",
     )
+
     ui.a(
         "Output: DataTable",
         href="https://shiny.posit.co/py/components/outputs/datatable/",
         target="_blank",
     )
+
     ui.a(
         "Output: Plotly Scatterplot",
         href="https://shiny.posit.co/py/components/outputs/plot-plotly/",
         target="_blank",
     )
+    
     ui.a(
         "Output: Seaborn Histogram",
         href="https://shiny.posit.co/py/components/outputs/plot-seaborn/",
