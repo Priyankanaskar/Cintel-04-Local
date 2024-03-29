@@ -31,7 +31,7 @@ penguins_df_r = penguins_df.rename(columns={"bill_depth_mm": "Bill Depth (mm)", 
 # Name the page ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ui.page_opts(title="Priyanka's Penguin Dashboard", fillable=False)
-
+color_map = {"Adelie": "blue", "Gentoo": "green", "Chinstrap": "red"}
 #Shiny UI sidebar for user interaction------------------------------------------------------------------------------------------------------------------------------------------------
 
 with ui.sidebar(open="open"):
